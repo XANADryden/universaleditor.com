@@ -1,0 +1,26 @@
+<!doctype html>
+<html>
+<head>
+  <script src="../baseEdit.js"></script>
+  <script src="../styler.js"></script>
+  <script src="styledb.js"></script>
+  <script src="/font-loader.js"></script>
+  <script src="event-handle"></script>
+  <link src="../style-theme.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+  <div id="headbar" class="headbar">
+    <a href="/home.html">HomeImg</a>
+    <button onclick="settingsB()">SettingImg</button>
+    <button onclick="saveB()">SaveImg</button>
+    <button onclick="loadB()">LoadImg</button>
+    <button onclick="compileB()">CompileImg</button>
+    <button onclick="runB()">RunImg</button>
+  </div>
+  <div id="sidebar" class="sidebar"></div>
+  <div id="editor" class="editor" contenteditable="true">
+    <span class="line"><span class="commenttype">;Type stuff here</span></span><br>
+    <span class="activeline" id="activeline"></span><br>
+  </div>
+</body>
+</html>
